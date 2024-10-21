@@ -6,6 +6,7 @@
   ansible.builtin.git:
     repo: https://github.com/neovim/neovim.git
     dest: "{{ lookup('env', 'HOME') }}/neovim"
+    version: release-0.10
   tags: [install, neovim]
 - name: Build neovim
   shell: cd {{ lookup('env', 'HOME') }}/neovim && make -j 20

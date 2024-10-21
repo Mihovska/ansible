@@ -5,7 +5,7 @@
   tags: [install, dotfiles, stow]
 - name: Cloning .dotfiles
   ansible.builtin.git:
-    repo: https://github.com/bmihovski/.dotfiles.git
+    repo: https://github.com/mihovska/.dotfiles.git
     dest: "{{ lookup('env', 'HOME') }}/Privatespace/.dotfiles"
     recursive: true
     update: true

@@ -22,9 +22,9 @@
       - moreutils
       - xclip
       - postgresql-client
-      - libstdc++-10-dev
-      - g++-10-multilib
-      - gcc-10-multilib
+      - libstdc++-14-dev
+      - g++-14-multilib
+      - gcc-14-multilib
       - fonts-powerline
       - gawk
   tags: [install, core, brew]

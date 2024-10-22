@@ -22,7 +22,7 @@
       - moreutils
       - xclip
       - postgresql-client
-      - libstdc++-14-dev
+      - libstdc++-11-dev
       - g++-11-multilib
       - gcc-11-multilib
       - fonts-powerline
